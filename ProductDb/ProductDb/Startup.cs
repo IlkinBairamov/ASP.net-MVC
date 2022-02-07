@@ -21,6 +21,7 @@ namespace ProductDb
             _configuration = configuration;
         }
 
+
         public void ConfigureServices(IServiceCollection services)
         {
             var connectingString = _configuration.GetConnectionString("DefaultConnection");
